@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scholarship Management Information System</title>
+	  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Scholarship Management System 
+<br>Information System</h1>
+<h2 id="head"> CvSU - Bacoor Campus<h2>
+<br>
+<div class="container">
+<div class="content">
+<p>Scholarship Management<br>Information System<p>
+<h5>Apply for scholarship?<h5>
+<button class="button button4">Yes! Let's Go ></button>
+<div class="curved">
+<img src="cvsulogo.png">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -20 435 170"><path fill="#18A558" fill-opacity="1" d="M0,32L40,32C80,32,160,32,240,74.7C320,117,400,203,480,213.3C560,224,640,160,720,128C800,96,880,96,960,96C1040,96,1120,96,1200,122.7C1280,149,1360,203,1400,229.3L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+</div>
+</div>
+<br><br><br>
+<div class="green">
+<h2 style="color:#F8AFA6;">About Our Project</h2>
+<p id="sentence">The developers aim to develop a system that will greatly benefit<br>
+those deserving students who wants to apply for a scholarship.<br>
+We like to make the process easier and convenient for everyone.
+</p>
+</div>
+<div class="conceptvid">
+<h2 style="color:#116530">Concept Video</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2X5kwIuOeek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br><br>
+<h2 style="color:#116530">Our Process</h2>
+<div class="process-wrapper">
+<div id="progress-bar-container">
+	<ul>
+		<li class="step step01 active"><div class="step-inner"><a href="https://drive.google.com/file/d/1FLtFeXgX1-hAruVeBNa07BuJDuLQe7jn/view?usp=sharing" >NEEDFINDING</a></div></li>
+		<li class="step step02"><div class="step-inner" > <a href="https://drive.google.com/file/d/1KTIDwK8EwT6titPql0H2zcdLFlrt38gh/view?usp=sharing">POV & EXPERIENCE PROTOTYPE</a></div></li>
+		<li class="step step03"><div class="step-inner"><a href="https://drive.google.com/file/d/1IpkfxR_bPPcdzvo-nKA66JM9JZUuPTMh/view?usp=sharing">LO-FI PROTOTYPE</a></div></li>
+		<li class="step step04"><div class="step-inner"><a href="https://drive.google.com/file/d/1AZ2WhH2sl8KeB8otg1-whYKrEplyTjv5/view?usp=sharing">HI-FI PROTOTYPE</a></div></li>
+		<li class="step step05"><div class="step-inner"><a href="https://drive.google.com/file/d/1Y-_zpNr-msO26WD8scg42Tle6clItkoI/view?usp=sharing">POSTER</a></div></li>
+	</ul>
+	
+	<div id="line">
+		<div id="line-progress"></div>
+	</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+ <script>
+    
+    $(".step").click( function() {
+	$(this).addClass("active").prevAll().addClass("active");
+	$(this).nextAll().removeClass("active");
+});
+
+$(".step01").click( function() {
+	$("#line-progress").css("width", "3%");
+	$(".discovery").addClass("active").siblings().removeClass("active");
+});
+
+$(".step02").click( function() {
+	$("#line-progress").css("width", "25%");
+	$(".strategy").addClass("active").siblings().removeClass("active");
+});
+
+$(".step03").click( function() {
+	$("#line-progress").css("width", "50%");
+	$(".creative").addClass("active").siblings().removeClass("active");
+});
+
+$(".step04").click( function() {
+	$("#line-progress").css("width", "75%");
+	$(".production").addClass("active").siblings().removeClass("active");
+});
+
+$(".step05").click( function() {
+	$("#line-progress").css("width", "100%");
+	$(".analysis").addClass("active").siblings().removeClass("active");
+});
+
+ 
+    </script>
+	<br><br>
+	
+	<h2 style="color:#116530">Meet Our Team</h2>
+	<div class="row">
+  <div class="column">
+    <img src="Angel Grace G.png" alt="Angel" style="width:8%">
+	<h6>Angel</h6>
+  </div>
+  <div class="column">
+    <img src="Lilia Divina J.png" alt="Lilia" style="width:8%">
+		<h6>Lilia</h6>
+  </div>
+  <div class="column">
+    <img src="Jessica M..png" alt="Jessica" style="width:8%">
+		<h6>Jessica</h6>
+  </div>
+   <div class="column">
+    <img src="Hannah.png" alt="Hannah" style="width:8%">
+		<h6>Hannah</h6>
+  </div>
+   <div class="column">
+    <img src="Rosemarie S..png" alt="Rosemarie" style="width:8%">
+		<h6>Rosemarie</h6>
+  </div>
+ 
+</div>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
+
